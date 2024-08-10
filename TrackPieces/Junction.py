@@ -85,7 +85,7 @@ class Junction(pygame.sprite.Sprite):
             return "N"
 
     def isOccupied(self):
-        return self.occupieds
+        return self.occupied
 
     def getID(self):
         return self.ID

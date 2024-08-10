@@ -179,7 +179,7 @@ def showLaunchScreen():
     draw_button(screen, buttonColour, (screenWidth/2) -
                 (105/2), (screenHeight/2)-(55/2), buttonWidth, buttonHeight, text='Open', center=(screenWidth/2, screenHeight/2), border_radius=10)
     write_text("Model Railway Design and Management", (500, 50), color=textColour, title=True)
-    write_text("CS548 Project", (500, 80), color=textColour, title=True)
+    write_text("CS948 Project", (500, 80), color=textColour, title=True)
     write_text("Niskarsha Ghimire - 202390729", (500, 110), color=textColour)
 
     # Draw track
